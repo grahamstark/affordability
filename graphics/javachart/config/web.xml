@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE web-app PUBLIC
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+	
+        <display-name>ADRS Chart Server</display-name>
+        <description>ADRS Chart Server</description>
+
+        <servlet>
+                <servlet-name>TimeSeriesPlotter</servlet-name>
+                <servlet-class>com.adrs.servlet.ChartServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+                <servlet-name>PhunpackServlet</servlet-name>
+                <servlet-class>com.adrs.servlet.PhunpackServlet</servlet-class>
+        </servlet>
+        
+        <servlet>
+                <servlet-name>MicroResultsPlotter</servlet-name>
+                <servlet-class>com.adrs.servlet.MicroModelChartServletSleepycat</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+                <servlet-name>TimeSeriesPlotter</servlet-name>
+                <url-pattern>/tsplotter/</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+                <servlet-name>MicroResultsPlotter</servlet-name>
+                <url-pattern>/microplotter/</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+                <servlet-name>PhunpackServlet</servlet-name>
+                <url-pattern>/phunpack_servlet/</url-pattern>
+        </servlet-mapping>
+        
+</web-app>

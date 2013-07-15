@@ -1,0 +1,34 @@
+   <section>
+      <title>Affordability Report for @_HEADER_@</title>
+      <note>
+         <title>About these figures</title>
+         <para>
+                Modelled on the following assumptions:
+                 <orderedlist spacing="compact">
+                <listitem>
+                        <para>
+                        [modelling assumptions here]
+                        </para>
+               </listitem>
+            </orderedlist>
+         </para>
+         <para>
+             Key Facts:
+             <itemizedlist spacing="compact">
+               <listitem>
+                  <para>[key facts here]</para>
+               </listitem>
+            </itemizedlist>
+         </para>
+      </note>
+      
+      @@TABLE@@
+      @_SECTIONS_@
+      @@END_TABLE@@ 
+      
+         <para>
+               [ End Paras Go Here ]
+         </para>
+         
+   </section>
+   <?hard-pagebreak?>

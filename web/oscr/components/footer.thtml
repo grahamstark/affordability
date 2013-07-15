@@ -1,0 +1,9 @@
+<div class="footer">
+    <div class="note">
+        Copyright &copy;2009 <a href='http://oscr.org.uk'>OSCR</a>/<a href='http://virtual-worlds.biz'>Virtual Worlds</a>. All rights reserved.
+    </div>
+    <div class='users'>
+        Welcome @_USERNAME_@ &nbsp; <a href='@_ROOT_@logout/'>Logout</a>
+    </div>
+</div>
+ 

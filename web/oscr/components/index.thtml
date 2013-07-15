@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD XHTML 1.0 Transitional/EN"
+    "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en">
+
+@@INCLUDE@@ header.thtml "Input Page : @_REGIME_NAME_@ : @_APPLICATION_NAME_@"
+
+<body>
+        <div id='mast'>
+            <h1>Affordability Calculator</h1>
+        </div>
+        <div class='navcontainer'>
+        <ul>     
+             <li class='active'><span class='current' >Home</span></li>
+             <li><a href='@_ROOT_@input'>Edit Costs Model</a></li>       
+             <li><a href='@_ROOT_@output/?r=@_RAND_@'>Output</a></li>       
+             <li><a href='@_ROOT_@run_settings'>Change Run Settings</a></li>
+             <li><a href='http://virtual-worlds.biz@_ROOT_@info'>Help and Information</a></li>        
+        </ul>
+       </div>
+<form action="@_ROOT_@load_existing" method="get" id="mainform" name="mainform">
+ <div class="content">
+@@IF@@ @_JOB_IS_RUNNING_@        
+@@INCLUDE@@ progress_bar.thtml        
+@@END_IF@@
+  <table width='100%'>
+     <tr>
+        <td align='center' valign='middle'>
+        <h2>Your Previous Work</h2>
+        <table >
+           <tr><th>Charity Name</th><th>Description</th><th>Last Used</th><th colspan='3' align='center'>Actions</th></tr>
+             @@TABLE@@
+               <tr class='tableRowOdd'><td>@_USER-NAMES_@</td><td>@_USER-DESCRIPTIONS_@</td><td>@_USER-FILE-TIMES_@</td>
+               <td><input type='submit' name='@_USER-FULL-PATHS_@' value='Copy'/></td>
+               <td><input type='submit' name='@_USER-FULL-PATHS_@' value='Edit'/></td>
+               <td><input type='submit' name='@_USER-FULL-PATHS_@' value='Delete'/></td></tr>
+             @@END_TABLE@@
+         </table>
+         </td>
+     </tr>
+     <tr>
+        <td align='center' valign='middle'>
+        <h2>Standard Templates</h2>
+        <table>
+           <tr><th>Charity Name</th><th>Description</th></tr>
+             @@TABLE@@
+               <tr class='tableRowOdd'><td>@_TEMPLATES-NAMES_@</td><td>@_TEMPLATES-DESCRIPTIONS_@</td><td><input type='submit' name='@_TEMPLATES-FULL-PATHS_@' value='Copy'/></td></tr>
+             @@END_TABLE@@
+         </table>
+         </td>
+     </tr>
+   </table>
+   <div class='version_history'>Model Version Built on <strong>@_BUILD-DATE_@</strong> revision: <strong>@_REVISION_@</strong></div>     
+ </div>
+@@INCLUDE@@ footer.thtml
+
+</form>
+</body>
+</html>

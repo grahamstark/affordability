@@ -1,0 +1,16 @@
+                        <tr id="row@_ROW-NUM_@" class="@_ROW_CLASS_@">
+                                <td>
+                                        @_RATE_EDIT_@
+                                </td>
+                                <td>
+                                        @_BAND_EDIT_@
+                                </td>
+                                <td>
+                                        <a href="#" onclick="new Ajax.Updater('rb_block@_IDENTIFIER_@', '/edit_rbs', { method: 'post', parameters: '@_INSERT_PARAMS_@&amp;' } );">
+                                                <span id="add_@_ROW-NUM_@"><img src="@_ROOT_@images/icon_plus.gif" alt="Add Row" /></span></a> 
+                                </td>
+                                <td>
+                                        <a href="#" onclick="new Ajax.Updater('rb_block@_IDENTIFIER_@', '/edit_rbs', { method: 'post', parameters: '@_DELETE_PARAMS_@'} );">
+                                                <span id="delete_@_ROW-NUM_@"><img src="@_ROOT_@images/icon_minus.gif" alt="Delete Row" /></span></a> 
+                                </td>
+                        </tr>

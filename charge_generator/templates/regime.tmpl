@@ -1,0 +1,18 @@
+   --
+   -- $name
+   --
+
+#for f in $functions:
+$f
+#end for;
+
+   function Construct_$name return Model.Charging.Charging_Regime is
+      regime : Charging_Regime;      
+   begin
+      regime.name := To_Unbounded_String( "$name" );
+#for f in $function_names:
+      ap.Append( regime.applications, $f );
+#end for;     
+      return regime;
+   end Construct_$name;
+

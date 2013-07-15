@@ -1,0 +1,415 @@
+/**  
+ * $Revision: 7463 $
+ * $Author: graham_s $
+ * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+ *
+ * Print only css which turns off all the headers and footers and
+ * removes most of the padding
+*/
+body {
+	text-align: center;
+	font-family: Palatino, "Times New Roman", Times, serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap, #wrapResources, #wrapAbout, #wrapServices, #wrapModels, #wrapBulletin, #wrapContact, #wrapHelp {
+	width: 100%;
+	padding: 0;
+	border: none;
+}
+
+a:link, a:hover, a:visited { text-decoration: underline; }
+h2 { font-size: 130%; }
+h3 { font-size: 120%; }
+
+#mast {
+        display:none;
+}
+
+#tag {
+	display:none;
+}
+#content, #contentLevel1, #contentLevel2, #contentLevel3 {
+	text-align: left;
+        width: 100%;
+	margin: 0;
+	padding: 0;
+        border: 0;
+}
+
+
+
+#inner {
+	padding: 0;
+        width: 100%;
+}
+#footer {
+	clear: both;
+	margin: 0;
+	font-size: 9px;
+	color: #666666;
+}
+#note {
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666;
+}
+
+
+/*--------- navigation -----------*/
+
+#nav {
+        display:none;
+}
+
+.task {
+	margin: 3px;
+	text-align: center;
+}
+.task a:link, .task a:visited {
+	font-size: 10px;
+	text-align: center;
+}
+.task a:hover {
+	font-size: 10px;
+	text-align: center;
+}
+
+/*--------- columns -----------*/
+#lcol {
+        display: none;
+        margin: 0;
+} 
+
+#contentLevel1 #lcol, #contentLevel2 #lcol, #contentLevel3 #lcol { display:none; }
+
+#ccol {
+	width: 100%;
+        padding: 0;
+        margin: 0;
+}
+
+
+#ccol ul {
+	margin: 0 0 0 20px;
+	padding: 0 50px 5px 0; 
+}
+
+#ccol li {
+	list-style-type: square;
+	margin: 0 0 0 10px;
+	padding: 5px 5px 5px 0;
+}
+
+#ccol h2 {
+	margin: 0;
+	padding: 0 0 0 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#contentLevel1 #ccol, #contentLevel2 #ccol, #contentLevel3 #ccol {
+	margin: 0;
+}
+
+#ccol h3 {
+	margin: 3px 0;
+	font-size: 14px;
+	color: #006;
+}
+
+.ccol_bkg li {
+	list-style-type: square;
+	margin: 0 0 0 10px;
+	padding: 5px 5px 5px 0;
+}
+
+ul.newsbox {
+        display: none;
+}
+ul.navbox {
+        display: none;
+}
+
+
+/** 
+  *
+  * Colo[u]rs and fonts for output tables (not tested yet since we don't actually have any 
+  * output tables as og 04/10/2006
+  *
+  * $Revision: 7463 $
+  * $Author: graham_s $
+  * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+  *
+ */
+
+.datatable, .inputtable, .summaryTable{
+     border-collapse: collapse; 
+     font-family:Verdana,Arial,Helvetica,Geneva,sans-serif;
+     font-size: 8pt;
+     text-align: right;
+}
+
+.inputtable{
+      padding: 1px;
+      font-size: 10px;
+}
+
+
+.datatable a, .datatable img, .datatable img a{
+     text-decoration: none;
+     border: 0;
+}
+
+.datatable a:hover{
+     text-decoration: none;
+     background:  #aaddbb; 
+}
+
+
+
+.inputtable th{
+      text-align: left;       
+}
+
+
+.summaryTable{
+       background-color: white;
+       color: #666;
+
+}
+
+.summaryTable td{
+      padding: 2pt;
+}
+
+
+.multi-change-table{
+     font-size: 8px;
+     padding:0;
+     border: 1px dotted silver;
+}
+
+
+
+.summaryData{
+     color: black;
+     font-weight: bold;
+}
+
+
+.tableRowEven, .inputBody, .tableRowOdd{
+     /*background-color: #ecd5b7; */
+     border-bottom: 1px dotted silver;
+}
+
+/** turn off displaying the table captions as they are dups of the table h2 s in almost every case */
+.datatable caption {
+        display:none;       
+}
+
+
+.datatable th{
+        padding-bottom: 3px; 
+        padding-left: 2px; 
+        padding-right: 2px;
+        padding-top: 0px;
+        vertical-align: bottom;
+        border-bottom: 1px dotted silver;
+}
+
+.datatable th, .datatable td{
+        padding: 2px;
+        border-bottom: 1px dotted silver;     
+}
+
+.tableRowOdd th,.tableRowEven th,.inputBody th{
+     font-weight: bold;
+     color: black;
+     text-align: left;
+}
+
+
+table { border-collapse: collapse; }
+
+.selectChart{
+        padding-left: 2px;       
+        padding-right: 2px;       
+}
+
+
+
+.cellHighlight {
+  font-weight: bold;
+}
+
+.sumCell{
+    font-size:100%;
+    text-align:right;
+    font-weight: bold;
+}
+
+
+.diagcell,
+.tableRowTotals,
+.tableColTotals{
+  text-align:right;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.tableRowTotals th,
+.tableColTotals th{
+    text-align: left;
+    color: black;
+}
+
+.overallTotals{
+  text-align:right;
+  font-weight: bold;
+  padding: 8px; 
+}
+
+
+.summarycell{
+    border: 1px dashed #99A;
+    padding: 6px;
+    padding-left: 8pt;
+}
+
+.selectChart a.delete, .selectChart a.delete:visited, .selectChart a.delete:hover{
+        font-weight: bold;
+        color: #dd4444;
+        text-decoration: none;
+}
+
+.selectChart a.edit, a.edit:visited, .selectChart a.edit:hover{
+        font-weight: bold;
+        color: #229911;
+        text-decoration: none;
+}
+
+.selectChart a.edit:hover, .selectChart a.delete:hover{
+        text-decoration: underline;
+}
+
+/** not tables, but the headers for the output pages, based on **/
+#popup_header {
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: #336699;
+	text-align: center;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.summaryTable{
+        padding: 0;       
+}
+
+.summaryTable td, .summaryTable th{
+        color: white;
+        font-size: 8pt;
+        color: black;
+        font-weight: normal;
+}
+
+.summaryTable a{
+        display: block;
+        padding: 1pt;
+        background-color: white;
+        border: 0;
+}
+
+.summaryTable a:hover{
+        padding: 1pt;
+        border: 1pt solid #aaddbb;
+}
+
+.summaryTable tr{
+        border-bottom: 1px solid silver;       
+}
+
+.summaryContent{
+         padding: 0;
+}
+
+.summaryContent h3{
+        text-align: left;       
+}
+
+.summaryContent a img{
+        border: 0;       
+}
+
+.summaryTable .tableRowOdd, .summaryTable .tableRowEven{
+        background-color: white;
+}
+
+.printer{
+        display: none;
+}
+
+.printer a img{
+        border: 0;
+}
+
+.pictureThumbnail, .pictureThumbnail a, .pictureThumbnail img{
+        border: 0;
+        display: block;
+        background-color: white;
+        padding: 1pt;
+}
+
+
+.logout{
+        display:none;
+}
+
+.hello_user{
+        display:none;
+}        
+        
+
+
+/**
+ * from: http:/css.maxdesign.com.au/listamatic/vertical06.htm
+*/
+.navlist{
+        padding-left: 0;
+        margin-left: 0;
+        border-bottom: 1px solid gray;
+        text-align: right;
+        color: black;
+}
+.navlist li{
+        list-style: none;
+        margin: 0;
+        padding: 0.25em;
+        border-top: 1px solid gray;
+}
+/** show all the hidden elements when printing*/
+.hidden_element{
+        display:block;       
+}
+
+.parameter_summary{
+        
+   color: black;
+   font-size: 8pt;
+   background-color: white;  
+}
+
+/** sadly, this doesn't work **/
+.display_when_printing{
+        display:block;
+        font-size: 8pt;
+}

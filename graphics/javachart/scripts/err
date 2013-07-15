@@ -1,0 +1,8 @@
+lhost.localdomain/ineq_lorenz_family_type_single_parents_2015_thumb.png
+/mnt/vm0/working_models//wd__24/results/subsets/images/708.localhost.localdomain/ineq_lorenz_location_urban_2006.png
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+        at com.adrs.charts.ChartLibrary.makeLorenzPlot(ChartLibrary.java:164)
+        at com.adrs.charts.ChartLibrary.drawChart(ChartLibrary.java:400)
+        at com.adrs.charts.ChartDriver.generateAllCharts(ChartDriver.java:51)
+        at com.adrs.charts.ChartDriver.main(ChartDriver.java:73)
+

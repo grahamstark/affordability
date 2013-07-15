@@ -1,0 +1,197 @@
+"Outdoor 5-a-Side Areas","Adult",27,12,23.71,38
+"(per pitch per game)","Juvenile",27,7.07,14.2,27.5
+"","Unemployed",25,7.5,19.43,37.5
+"Floodlighting for Synthetic","Adult",14,4.5,13.78,23.4
+"Pitch","Juvenile",14,4.5,13.33,23.4
+"(per pitch per game)","Unemployed",14,4.5,13.78,23.4
+"Tennis Court","Adult",26,0,6.33,9.87
+"(per court per hour)","Juvenile",26,0,3.72,6.5
+"","Senior Citizen",26,0,4.25,9.87
+"","Unemployed",26,0,4.3,9.87
+"Tennis Season Ticket","Adult",8,24,35.5,51.8
+"(per person)","Juvenile",8,12,17.67,25.9
+"","Senior Citizen",8,12.45,19.17,25.9
+"","Unemployed",8,12.45,23.7,36
+"Bowls Session","Adult",18,0,2.17,5.65
+"(per person)","Juvenile",18,0,1.2,2.9
+"","Senior Citizen",18,0,1.19,2.2
+"","Unemployed",18,0,1.33,2.3
+"Bowls Season Ticket","Adult",14,20.9,40.56,61
+"(per person)","Juvenile",13,8.5,21.62,36
+"","Senior Citizen",13,15.35,24.38,36
+"","Unemployed",13,15.35,27.43,43.5
+"18-Hole Golf Round","Adult",16,9.7,16.94,31
+"(weekend) (per person)","Juvenile",16,4.5,9.65,21
+"","Senior Citizen",16,5,11.43,21
+"","Unemployed",16,5,11.61,21
+"18-Hole Golf Round","Adult",16,5.75,13.54,25
+"(weekday) (per person)","Juvenile",16,2.5,6.52,14
+"","Senior Citizen",16,3,7.97,16.5
+"","Unemployed",16,0,7.18,16.5
+"Golf Season Ticket","Adult",16,150,222.07,375
+"(per person)","Juvenile",16,10,59.34,100
+"","Senior Citizen",16,38,121.25,250
+"","Unemployed",14,65,139.21,250
+"9-Hole Golf Round","Adult",13,4.3,7.47,12
+"(weekend) (per person)","Juvenile",13,2.25,3.93,6.5
+"","Senior Citizen",13,2.25,4.5,7
+"","Unemployed",13,2.25,5.23,10
+"Football Pitch (Sat pm)","Adult",30,0,19.84,36
+"(per pitch per game)","Juvenile",30,0,9.82,18
+"","Unemployed",24,0,15.45,36
+"Football Pitch - plus","Adult",31,13,27.73,45
+"Changing (Sat pm)","Juvenile",31,0,14.03,24
+"(per pitch per game)","Unemployed",25,6.5,22.33,45
+"Rugby Pitch - plus","Adult",30,0,25.13,45
+"Changing (Sat pm)","Juvenile",30,0,13.11,32.1
+"(per pitch per game)","Unemployed",24,0,20.49,45
+"Hockey Pitch - plus","Adult",23,0,27.32,67
+"Changing (Sat pm)","Juvenile",23,0,13.2,33.5
+"(per pitch per game)","Unemployed",19,0,21.15,67
+"Shinty Pitch - plus","Adult",10,14.5,26.3,45
+"Changing (Sat pm)","Juvenile",10,7.25,13,22.5
+"(per pitch per game)","Unemployed",7,7.25,21.89,45
+"Cricket Pitch - plus","Adult",16,0,27.34,45
+"Changing (Sat pm)","Juvenile",16,0,13.44,24
+"(per pitch per game)","Unemployed",14,0,22.5,45
+"Other Pitch Sports - plus","Adult",5,19,30.76,45
+"Changing (Sat pm)","Juvenile",5,9.4,16.13,24
+"(per pitch per game)","Unemployed",5,9.4,25.68,45
+"Changing Facilities for","Adult",20,3.2,12.81,19.5
+"Pitch Sports","Juvenile",20,0,6.89,12.5
+"(Sat pm)","Unemployed",18,1.8,11.42,19.5
+"Floodlighting for Grass","Adult",10,4.5,11.8,25
+"Pitch (Sat pm)","Juvenile",10,4.5,11.15,25
+"(per pitch per game)","Unemployed",9,4.5,10.95,25
+"Synthetic Grass Pitch","Adult",26,29.6,57.5,91.6
+"(Sat pm)","Juvenile",26,15,37.03,84
+"(per pitch per game)","Unemployed",23,15,49.65,91.6
+"Blaes/Dri-play/Polymeric","Adult",8,11.7,23,36.8
+"Pitch","Juvenile",8,5.85,14.61,26
+"(per pitch per game)","Unemployed",6,9.95,15.97,26
+"9-Hole Golf Round","Adult",13,3.5,6.35,10
+"(weekday) (per person)","Juvenile",13,1.7,3.26,5.6
+"","Senior Citizen",13,1.7,3.48,5.5
+"","Unemployed",13,0,3.41,5.6
+"Pitch 'n' Putt/Par 3 Golf","Adult",12,0,2.13,5.8
+"(per 9 holes per person)","Juvenile",12,0,1.16,3.1
+"","Senior Citizen",12,0,1.4,5.8
+"","Unemployed",12,0,1.67,5.8
+"Putting Round","Adult",19,0,1.29,2.4
+"(per person)","Juvenile",19,0,0.77,1.25
+"","Senior Citizen",18,0,0.89,2.4
+"","Unemployed",18,0,0.93,2.4
+"Golf Driving Range","Adult",4,2.4,3.15,4.2
+"(per bucket of balls)","Juvenile",4,2.4,2.68,3
+"","Senior Citizen",3,2.4,3.2,4.2
+"","Unemployed",3,2.4,3.2,4.2
+"Trampolining","Adult",3,1.1,1.45,1.85
+"(per person)","Juvenile",5,0.5,0.74,1
+"Athletics Session","Adult",22,0,2.03,3.7
+"(per person)","Juvenile",22,0,1.19,2
+"","Senior Citizen",20,0,1.44,3
+"","Unemployed",21,0,1.4,3
+"Athletics","Adult",15,8,36.4,105.3
+"(per session per group)","Juvenile",15,5.6,29.46,105.3
+"","Senior Citizen",13,5.6,35.25,105.3
+"","Unemployed",14,5.6,34.81,105.3
+"Separate Use of Changing","Adult",7,0.95,9.07,19.5
+"Facilities for Athletics","Juvenile",7,0.95,5.02,10
+"(per session)","Senior Citizen",7,0.95,5.91,12.1
+"","Unemployed",7,0.95,8.43,19.5
+"Dry Ski Slope Session","Adult",5,3.15,6.85,9
+"(per person)","Juvenile",5,2.2,4.16,6
+"Fishing Permit (from Bank)","Adult",11,2.6,8.35,20
+"(per person per day)","Juvenile",11,0,5.55,15
+"","Senior Citizen",10,0,5.72,15
+"","Unemployed",11,1.5,6.47,15
+"Fishing Permit (from Boat)","Adult",8,4.1,14.68,21.5
+"(per person per day)","Juvenile",8,0,8.8,15
+"","Senior Citizen",7,0,10.49,16.15
+"","Unemployed",8,4.1,12.31,16.15
+"Fishing - Annual Ticket","Adult",8,20,76.56,228.8
+"(per person)","Juvenile",8,0,31.01,76
+"","Senior Citizen",8,0,50.05,161.2
+"","Unemployed",7,13.5,56.06,161.2
+"Equestrian Centres","Adult",2,13.5,25.1,36.7
+"(per person per session)","Juvenile",2,11,23.85,36.7
+"Windsurfing","Adult",3,3.4,6.2,8
+"(per person per session)","Juvenile",3,1.9,3.17,4
+"Canoeing","Adult",7,1.3,5.82,11.5
+"(per person per session)","Juvenile",7,0.8,2.93,5.45
+"","Unemployed",6,0.65,3.86,9.8
+"Sailing","Adult",5,3.4,12.26,33.6
+"(per person per session)","Juvenile",5,1.9,5.98,15.85
+"Boating Session","Adult",7,1,3.05,6.5
+"(per person)","Juvenile",5,0.8,1.45,2.6
+"","Senior Citizen",6,0.8,2.63,6.5
+"","Unemployed",6,0.8,2.63,6.5
+"Swimming Session","Adult",30,1.9,2.61,4.2
+"(per person per hour)","Juvenile",30,0,1.46,3.2
+"Conventional Pool","Senior Citizen",30,0,1.3,3.7
+"","Unemployed",30,0,1.54,3.1
+"Leisure Pool","Adult",25,2.1,3.08,4.55
+"","Juvenile",25,0,1.85,3.2
+"","Senior Citizen",25,0,1.69,3.7
+"","Unemployed",25,0.85,2.07,4.55
+"Swimming Lesson","Adult",28,2,4.06,8.5
+"(per person)","Juvenile",29,1.85,2.87,6
+"Conventional Pool","Senior Citizen",28,1.5,3.1,8.25
+"","Unemployed",28,0.5,3.15,8.25
+"Leisure Pool","Adult",22,2.5,4.31,8.5
+"","Juvenile",23,2,3.11,6
+"","Senior Citizen",22,1.5,3.39,8.25
+"","Unemployed",22,1.5,3.56,8.25
+"Water Aerobics","Adult",28,2,3.63,5.3
+"(per session)","Juvenile",20,1.5,2.48,4.1
+"Conventional Pool","Senior Citizen",28,0,2.58,4.1
+"","Unemployed",28,0.5,2.63,4.1
+"Leisure Pool","Adult",22,2.25,3.66,5.3
+"","Juvenile",16,1.75,2.55,4.1
+"","Senior Citizen",22,0,2.65,4.1
+"","Unemployed",22,1.75,2.77,4.1
+"Swimming Pool Hire","Adult",28,27.8,52.95,130
+"Exclusive Use","Juvenile",28,21,49.03,130
+"(per session)","Senior Citizen",28,21,49.77,130
+"Conventional Pool","Unemployed",28,21,49.77,130
+"Swimming","Adult",14,17,21.58,31.5
+"(per person per 10 tickets)","Juvenile",13,8.6,12.46,19.8
+"Conventional Pool","Senior Citizen",10,0,12.47,19.8
+"","Unemployed",8,8.6,16.35,27.5
+"Leisure Pool","Adult",10,18.9,26.08,45.5
+"","Juvenile",9,9.45,15.27,26.5
+"","Senior Citizen",8,0,14.86,26.5
+"","Unemployed",7,10.8,20.81,45.5
+"Swimming Season Ticket","Adult",13,106,166.41,275
+"(per person per year)","Juvenile",10,53,90.62,220
+"Conventional Pool","Senior Citizen",11,0,116.91,243
+"","Unemployed",10,53,116.08,243
+"Leisure Pool","Adult",11,106,172.52,275
+"","Juvenile",8,53,103.3,220
+"","Senior Citizen",9,0,121.78,243
+"","Unemployed",8,53,118.86,243
+"Swimming Spectator","Adult",18,0.1,0.79,1.5
+"","Juvenile",18,0,0.58,1.2
+"","Senior Citizen",18,0,0.6,1.2
+"","Unemployed",18,0,0.63,1.2
+"Swimming if Flume Included","Adult",23,2.1,3.12,4.55
+"Leisure Pool (per person)","Juvenile",23,0,1.94,3.2
+"","Unemployed",22,0.85,2.22,4.55
+"Flume","Adult",1,3.15,3.15,3.15
+"Leisure Pool (per person per","Juvenile",1,3.15,3.15,3.15
+"Sauna Session","Adult",30,1,4.24,7
+"(per person per hour)","Juvenile",16,1.75,2.81,5.25
+"","Senior Citizen",30,1,3.05,6.1
+"","Unemployed",30,0.5,3.12,6.1
+"Turkish/Steam Bath","Adult",12,1,4.4,7
+"(per person per session)","Juvenile",4,2.3,3.03,5
+"","Senior Citizen",12,1,3.57,6.1
+"","Unemployed",12,1,3.73,6.1
+"Sunbed Session","Adult",5,3.1,4.04,5.4
+"(per person per 30 minutes)","Juvenile",4,3.1,4,5.4
+"","Senior Citizen",5,3.1,4.04,5.4
+"","Unemployed",5,0.5,3.48,5.4
+"Sunbed: Fast Tan/High Power","Adult",2,2,3.6,5.2
+"(per person per 30 minutes)","Juvenile",1,5.2,5.2,5.2
+"","Senior Citizen",2,2,3.6,5.2
+"","Unemployed",2,2,3.6,5.2

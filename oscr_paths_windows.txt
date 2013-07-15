@@ -1,0 +1,9 @@
+physical_server_root=c:\charities\oscr\model\web\oscr\;
+charts_driver_script=c:\charities\oscr\model\graphics\javachart\scripts\charts_generator_windows.bat;
+datafile_directory=c:\charities\tax_benefit_model_components\model_datasets\;
+template_components_path=c:\charities\oscr\model\web\oscr\components\;
+work_dir=c:\charities\oscr\model\workdir\;
+log_file_dir=c:\charities\oscr\model\logs\;
+port=81;
+create_zip_file_and_static_images=FALSE;
+root=/oscr/;

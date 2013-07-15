@@ -1,0 +1,12 @@
+      cp.Clear( target.charges );
+      target.name := To_Unbounded_String( "$name" );
+      target.min_age := $min_age;
+      target.max_age := $max_age;
+      target.isExclusive := True;      
+#for cr in $targetsDescs:
+      $cr
+#end for;
+#for cr in $charges:
+      $cr      
+      cp.Append( target.charges, charge ); 
+#end for;

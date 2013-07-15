@@ -1,0 +1,10 @@
+   
+   function Make_All_Regimes return Model.Charging.Charging_Regime_List is
+      l : Model.Charging.Charging_Regime_List;
+   begin
+#for f in $function_names:
+      rp.Append( l, $f );
+#end for;     
+      
+      return l;
+   end Make_All_Regimes;   

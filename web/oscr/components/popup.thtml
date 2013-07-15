@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD XHTML 1.0 Transitional/EN"
+    "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en">
+@@INCLUDE@@ header.thtml "Output Popup : @_REGIME-TEXT_@ : @_APPLICATION-TEXT_@"
+<body>
+ <h2>   @_REGIME-TEXT_@ : @_APPLICATION-TEXT_@ </h2> 
+<table class="summaryTable" width="100%">
+        <tbody>
+                <tr>
+                        <td align="center" valign="top" width="80%">
+                                @@IF@@ @_IS-SVG_@
+                                <object height="500" width="800" type="image/svg+xml" data="@_ROOT_@/charts/?file=@_CHART_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=svg">
+                                                        @_ALT_@
+                                                </object>
+                                @@ELSE@@
+                                <img height="400" width="600" src="@_CHART_@" alt='@_ALT_@' />
+                                @@END_IF@@
+                        </td>
+
+                        <td align="center" valign="top" width="20%"></td>
+                </tr>
+        </tbody>
+</table>
+@@INCLUDE@@ footer.thtml
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD XHTML 1.0 Transitional/EN"
+    "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en">
+
+@@INCLUDE@@ header.thtml "Run Settings : @_REGIME_NAME_@ : @_APPLICATION_NAME_@"
+
+<body>
+<form action="@_ROOT_@run_settings/" method="post" id="mainform" name="mainform">
+    <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+        <div id="mast"><h1>Run Settings</h1></div>
+        <div class='navcontainer'>
+        <ul >     
+             <li><a href='@_ROOT_@'>Home</a></li >
+             <li><a href="@_ROOT_@input">Edit Costs Model</a></li>       
+             <li><a href='@_ROOT_@output/?r=@_RAND_@'>Output</a></li>       
+             <li><span class='current' >Change Run Settings</span></li>       
+             <li><a href='http://virtual-worlds.biz@_ROOT_@info'>Help and Information</a></li>        
+        </ul>
+      </div>
+
+      
+<div class='progress' id='progress'>        
+@@IF@@ @_JOB_IS_RUNNING_@        
+@@INCLUDE@@ progress_bar.thtml        
+@@END_IF@@
+</div>
+<div class='content'>
+<table class='dataTable' width='80%' align='center'>
+  <tbody>
+    <tr class='tableRowEven'>
+        <td>
+         <label for='include_housing'>Include Child Care Costs In Allowances:&nbsp;</label>
+         <input type="checkbox" @_INCLUDE-CHILD-CARE-COSTS-IN-ALLOWANCES_@ id='include_child_care_costs_in_allowances' name='include_child_care_costs_in_allowances' />
+        </td>
+        <td>
+         <label for='include_housing'>Include Housing in Allowances:&nbsp;</label>
+         <input type="checkbox" @_INCLUDE-HOUSING_@ id='include_housing' name='include_housing' />
+        </td>
+    </tr>
+    <tr class='tableRowOdd'>
+      <td>
+        <label for='summary_slot'>Summary Affordability Level:&nbsp;</label>
+        <select id='summary_slot' name='summary_slot' >
+           @_SLOT-SELECTS_@
+        </select>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr class='tableRowOdd'>
+      <td>
+        <label for='aggregate_incomes_to'>Aggregate Incomes To:&nbsp;</label>
+                <select id='aggregate_incomes_to' name='aggregate_incomes_to' >
+                   @_AGGREGATE-SELECTS-INCOMES_@
+                </select>
+      </td>
+      <!--
+      <td>
+        <label for='produce_results_for'>Produce Results For:&nbsp;</label>
+                <select id='produce_results_for' name='produce_results_for' >
+                   @_AGGREGATE-SELECTS-RESULTS_@
+                </select>
+        
+       </td>
+       -->
+    </tr>
+    
+    <tr align='center' >
+    <td colspan='2'>
+
+ <div class='submit' >
+   <fieldset class='submit_buttons'>
+         <input id='Save_Button' type='submit' name="action" value='Save' />
+    </fieldset>
+</div>   
+    
+    </td>
+    </tr>
+</tbody>
+</table>
+</div>                
+@@INCLUDE@@ footer.thtml
+
+ </form>
+</body>
+</html>

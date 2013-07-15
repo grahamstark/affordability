@@ -1,0 +1,17 @@
+   function Construct_$appname return Application_Type is
+      app    : Application_Type;
+      target : Target_Type;
+      charge : Charges_Type;
+   begin
+      app.name := To_Unbounded_String( "$name" );
+#for r in $restrictions:
+      $r
+#end for;
+      
+#for t in $targets:
+$t
+      tp.Append( app.targets, target );
+#end for;
+      return app;
+    end Construct_$appname;
+

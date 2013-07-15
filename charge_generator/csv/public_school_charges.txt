@@ -1,0 +1,306 @@
+1
+Edinburgh
+ Co-ed 5-12 Yrs 
+3600
+3600
+ 
+2
+Elgin
+ Co-ed 2-8 yrs 
+3960
+3960
+ 
+3
+Glasgow
+ Co-ed 3-12 yrs 
+1140
+4380
+ 
+4
+Edinburgh
+ Co-ed 3-18 yrs 
+3090
+6093
+ 
+5
+East Lothian 
+Co-ed 4-11
+4059
+6230
+ 
+6
+Edinburgh
+ Co-ed 5-18 yrs 
+3150
+6264
+ 
+7
+Edinburgh (B)
+ Co-ed 3-12  
+5142
+6663
+14085
+8
+Aberdeen
+ Co-ed 3-16 yrs 
+4650
+6969
+ 
+9
+Glasgow
+ Girls 4-18 Boys 4-11 
+5850
+7200
+ 
+10
+St Andrews
+ Co-ed 3-12 yrs 
+6447
+7227
+ 
+11
+Edinburgh (B)
+ 2-18 yrs Girls 
+5655
+7290
+18090
+12
+Edinburgh
+ Co-ed 3-11 yrs 
+7500
+7500
+ 
+13
+Helensburgh (B)
+ Co-ed 3-18 yrs 
+3810
+7770
+16635
+14
+Perth
+ Co-ed 3-13 yrs 
+7800
+7800
+ 
+15
+Edinburgh (B)
+ 12-18 Boys   
+7833
+7833
+15627
+16
+Edinburgh (B)
+ 12-18 Girls 
+7883
+7833
+14085
+17
+Edinburgh
+ Co-ed 3-18 
+5211
+7845
+ 
+18
+Stirling
+ Co-ed 3-18yrs 
+6210
+7845
+ 
+19
+Glasgow
+  3-18yrs Girls 
+6165
+7860
+ 
+20
+Glasgow
+ Co-ed 5-18 yrs 
+6126
+7869
+ 
+21
+Hamilton
+ Co-ed 5-18 yrs 
+4920
+7935
+ 
+22
+Aberdeen
+ Co-ed 3-18 yrs 
+5100
+8025
+ 
+23
+Kilmalcome
+ Co-ed 3-18 yrs 
+2766
+8043
+ 
+24
+Glasgow
+ Co-ed 3-18 
+5175
+8100
+ 
+25
+Aberdeen
+ 3-18 yrs Girls 
+4650
+8112
+ 
+26
+Edinburgh
+ Co-ed 3-18 
+5265
+8136
+ 
+27
+Dollar (B)
+ Co-ed 5-18 yrs 
+6084
+8145
+18585
+28
+Crieff (B)
+ Co-ed 3-18 yrs 
+5385
+8145
+19875
+29
+Glasgow
+ Co-ed 3 -18 yrs 
+5067
+8163
+ 
+30
+Aberdeen
+ Co-ed 3 -18 yrs 
+5001
+8200
+ 
+31
+Dundee
+ Co-ed 5-18 yrs 
+5841
+8304
+ 
+32
+Glasgow
+ Co-ed 3-18 yrs 
+5187
+8511
+ 
+33
+Ayr
+ Co-ed 3-18 yrs 
+4335
+8520
+ 
+34
+Edinburgh (B)
+ 0-18 yrs Girls 
+5133
+8634
+10011
+35
+St Andrews (B)
+ Co-ed 12-19 yrs 
+8892
+8892
+21174
+36
+Crieff (B)
+ Co-ed 3-13 yrs 
+4620
+9858
+14817
+37
+Edinburgh (B)
+ Co-ed 3-13 yrs 
+6750
+10080
+13380
+38
+Edinburgh (B)
+ Co-ed 7-13 yrs 
+10326
+10326
+16167
+39
+Melrose (B)
+ Co-ed 2-13 yrs 
+7500
+10500
+12300
+40
+Dunbar (B)
+ Co-ed 7-13 yrs 
+10920
+10920
+15750
+41
+Musselburgh (B)
+ Co-ed 3-12 yrs 
+5505
+11046
+16650
+42
+Bridge of Earn (B)
+ 2-18 yrs Girls 
+6735
+11685
+19935
+43
+Montrose (B)
+ Co-ed 0-14 yrs 
+7248
+12465
+15435
+44
+Musselburgh (B)
+ Co-ed 12-18 yrs 
+14595
+14595
+22080
+45
+Forgandenny (B)
+ Co-ed 10-18 yrs 
+9690
+14745
+21375
+46
+Dumfries (B)
+Small Specialist
+15000
+15000
+22300
+47
+Glenalmond (B)
+ Co-ed 12-18 yrs 
+11535
+15375
+22545
+48
+Aberdeen
+ Co-ed 3-18 yrs 
+13800
+15434
+ 
+49
+Edinburgh (B)
+ 8-18 yrs Boys 
+10005
+15585
+21795
+50
+Edinburgh (B)
+ Co-ed 13-18 yrs 
+15840
+15840
+22326
+51
+Elgin (B)
+ Co-ed 8-18 yrs 
+8823
+17700
+24162

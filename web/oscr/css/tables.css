@@ -1,0 +1,374 @@
+/** 
+  *
+  * Colo[u]rs and fonts for output tables.
+  * See also adrs_overrides.css which has some items used in tables.
+  * 
+  * $Revision: 7463 $
+  * $Author: graham_s $
+  * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+  *
+ */
+
+.legendtable, .datatable, .inputtable, .summaryTable, .phunpack{
+     border-collapse: collapse; 
+     font-family:Verdana,Arial,Helvetica,Geneva,sans-serif;
+     font-size: 8pt;
+     text-align: right;
+}
+
+th{
+     vertical-align: bottom;      
+}
+
+.inputtable{
+      font-size: 10pt;
+}
+
+.inputtable td{
+      padding: 4px;
+}
+
+
+.datatable a, .datatable img, .datatable img a, .phunpack a{
+     text-decoration: none;
+     border: 0;
+}
+
+.datatable a:hover, .phunpack a:hover{
+     text-decoration: none;
+     background:  #aaddbb; 
+}
+
+.phunpack a:hover{
+     color: white; 
+}
+
+
+.inputtable th{
+      text-align: left;       
+}
+
+
+.summaryTable{
+       background-color: white;
+       color: #666;
+
+}
+
+.summaryTable td{
+      padding: 2pt;
+}
+
+
+.multi-change-table{
+     font-size: 8px;
+     padding:0;
+     border: 1px dotted silver;
+}
+
+.block_operations_section{
+     background: #eeffee;       
+}
+
+.summaryData{
+     color: black;
+     font-weight: bold;
+}
+
+.multi-change-table caption{
+     font-size: 10pt;
+     font-style: italic;
+}
+
+.tableRowEven, .inputBody, .tableRowOdd{
+     /*background-color: #ecd5b7; */
+     border-bottom: 1px dotted silver;
+}
+
+.currently_edited{
+     background-color: silver;       
+     border-bottom: 1px dotted black;
+}
+
+/** turn off displaying the table captions as they are dups of the table h2 s in almost every case */
+.datatable caption {
+        font-size: 90%;
+        font-style: italic;
+        float: right;
+}
+
+
+.datatable th{
+        padding-bottom: 3px; 
+        padding-left: 2px; 
+        padding-right: 2px;
+        padding-top: 0px;
+        vertical-align: bottom;
+        border-bottom: 1px dotted silver;
+        color: #3366CC; 
+}
+
+.datatable th, .datatable td{
+        padding: 2px;
+        border-bottom: 1px dotted silver;
+        vertical-align: middle;
+}
+
+.tableRowOdd th,.tableRowEven th,.inputBody th{
+     font-weight: bold;
+     color: black;
+     text-align: left;
+}
+
+/**
+.tableRowOdd{
+     background-color: #f8f8e8;  
+}
+
+**/
+
+table { border-collapse: collapse; }
+
+.selectChart{
+        padding-left: 2px;       
+        padding-right: 2px;       
+}
+
+.selectChart .tableRowOdd:hover{
+      background-color: #ccccdd;   
+}
+
+.selectChart .tableRowEven:hover{
+      background-color: #ddddee;   
+}
+
+
+
+
+
+
+.cellHighlight {
+  font-weight: bold;
+}
+
+.sumCell{
+    font-size:100%;
+    text-align:right;
+    font-weight: bold;
+}
+
+
+.diagcell,
+.tableRowTotals,
+.tableColTotals{
+  text-align:right;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.tableRowTotals th,
+.tableColTotals th{
+    text-align: left;
+    color: black;
+}
+
+.overallTotals{
+  text-align:right;
+  font-weight: bold;
+  padding: 8px; 
+}
+
+
+.summarycell{
+    border: 1px dashed #99A;
+    padding: 6px;
+    padding-left: 8pt;
+}
+
+.selectChart a.delete, .selectChart a.delete:visited, .selectChart a.delete:hover{
+        font-weight: bold;
+        color: #dd4444;
+        text-decoration: none;
+}
+
+.selectChart a.edit, a.edit:visited, .selectChart a.edit:hover{
+        font-weight: bold;
+        color: #229911;
+        text-decoration: none;
+}
+
+.selectChart a.edit:hover, .selectChart a.delete:hover{
+        text-decoration: underline;
+}
+
+/** not tables, but the headers for the output pages, based on **/
+#popup_header {
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: #336699;
+	text-align: center;
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.summaryTable{
+        padding: 0;       
+}
+
+.summaryTable td, .summaryTable th{
+        color: white;
+        font-family: tahoma, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        color: black;
+        font-weight: normal;
+}
+
+.summaryTable a{
+        display: block;
+        padding: 4pt;
+        background-color: white;
+        border: 0;
+}
+
+.summaryTable a:hover{
+        padding: 3pt;
+        border: 1pt solid #aaddbb;
+}
+
+.summaryTable tr{
+        border-bottom: 1px solid #bbddcc;       
+}
+
+.summaryContent{
+        background: #eeffee; /** #d3d3c0; should be **/
+        padding-left: 2em;
+        margin-top: 1px; /* same as content level 2 **/
+}
+
+.summaryContent h3{
+        text-align: left;       
+}
+
+.summaryContent a img{
+        border: 0;       
+}
+
+.summaryTable .tableRowOdd, .summaryTable .tableRowEven{
+        background-color: white;
+}
+
+.printer{
+        display: block;
+        float: right;
+        padding-top : 4pt;
+        padding-right: 20pt;
+}
+
+.printer a img{
+        border: 0;
+}
+
+.pictureThumbnail, .pictureThumbnail a, .pictureThumbnail img{
+        border: 0;
+        display: block;
+        background-color: white;
+        padding: 4pt;
+}
+
+.pictureThumbnail a:hover{
+        border: 1pt solid #aaddbb;
+        padding: 3pt;
+}
+
+.logout{
+        display:block;
+        float: right;
+        color: #ffccff;
+        font-size: 10pt;
+        padding-right: 4pt;
+        padding-left: 4pt;
+}
+
+.hello_user{
+        display:block;
+        float: right;
+        color: #ccccff;
+        font-size: 10pt;
+        padding-left: 3pt;
+}        
+        
+
+.logout a:hover{
+        color: #ffddff;
+        text-decoration: none;
+}
+
+/**
+ * from: http:/css.maxdesign.com.au/listamatic/vertical06.htm
+*/
+.navlist{
+        padding-left: 0;
+        margin-left: 0;
+        border-bottom: 1px solid gray;
+        width: 200px;
+        text-align: right;
+        color: black;
+}
+.navlist li{
+        list-style: none;
+        margin: 0;
+        padding: 0.25em;
+        border-top: 1px solid gray;
+}
+.navlist li a, .navlist li a:visited { display:block; text-decoration: none; color: black; }
+.navlist li a:hover { background-color: #668888; color: white; }
+
+.legendblock{
+        display: block;
+        font-weight: bold;
+        width: 8%;
+        padding: 4px;
+        background-color: white;
+        border: 1px solid #bbddcc;       
+}
+
+.phunpack{
+        float: right;
+        display: block;
+        /**border: 1px dashed silver; **/
+        border: 1px solid #bbddcc;       
+        padding: 4px;
+        background-color: white;
+}
+
+td.subheader{
+        font-size: 8pt;
+        font-style: italic;
+}
+
+tr.group_of_rows{
+        border-bottom: 1px solid silver;     
+}
+
+.ve_clone_table{
+        border: 1px dotted silver;
+}
+
+.ve_clone_table td, .ve_clone_table th{ 
+        padding-left: 1em;
+        padding-right: 0.5em;
+        border-right: 1px dotted silver;
+        border-bottom: 1px dotted silver;
+        text-align: right;
+}
+
+.popup_container_table td{
+        vertical-align: top;        
+}
+
+td.result_set{
+        border-right: 2px dashed silver;        
+}

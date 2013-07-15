@@ -1,0 +1,32 @@
+/** 
+  *
+  * Colo[u]rs and fonts for the popup submit buttons, most of which are actually <a> links.
+  * see: http:/webdesign.about.com/cs/css/a/aa041904.htm
+  * $Revision: 7463 $
+  * $Author: graham_s $
+  * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+  *
+ */
+
+a.button_save, a.button_reset {
+        background-color: #eeeeee;
+        display: block;
+        color: black;
+        border: 2px outset #cccccc;
+        font-size: 10pt;
+        padding: 4pt;
+        text-decoration: none;
+}
+
+input.button_save{
+        padding: 4px;       
+}
+
+.button_save:hover, .button_reset:hover, .button_run:hover, .button_rewind:hover{
+        background-color: #cccccc;
+}
+
+.button_save:active, .button_reset:active, .button_run:active, .button_rewind:active{
+        border: 4px inset;
+}
+

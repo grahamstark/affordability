@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD XHTML 1.0 Transitional/EN"
+    "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en">
+
+@@INCLUDE@@ header.thtml "Input Page : @_REGIME_NAME_@ : @_APPLICATION_NAME_@"
+
+<body>
+<form action="@_ROOT_@input/" method="post" id="mainform" name="mainform">
+    <input type='hidden' name='random_string' value="@_RANDOM_STRING_@" />
+        <div id="mast"><h1>Affordability Calculator</h1></div>
+        <div class='navcontainer'>
+        <ul >     
+             <li><a href='@_ROOT_@'>Home</a></li >
+             <li><span class='current' >Edit Costs Model</span></li>
+             <li><a href='@_ROOT_@output?r=@_RAND_@'>Output</a></li>       
+             <li><a href='@_ROOT_@run_settings/'>Change Run Settings</a></li>
+             <li><a href='http://virtual-worlds.biz@_ROOT_@info'>Help and Information</a></li>        
+        </ul>
+      </div>
+
+      
+<div class='progress' id='progress'>        
+@@IF@@ @_JOB_IS_RUNNING_@        
+@@INCLUDE@@ progress_bar.thtml        
+@@END_IF@@
+</div>
+@_MAIN-ERROR-MESSAGE_@
+@_REGIME_@
+<table class='dataTable' width='100%'>
+  <tbody>
+     <tr align='center' >
+    <td>
+@_MAIN-ERROR-MESSAGE_@
+    </td>
+    </tr>
+    <tr align='center' >
+    <td>
+
+@@INCLUDE@@ submit.thtml
+    </td>
+    </tr>
+</tbody>
+</table>
+                
+@@INCLUDE@@ footer.thtml
+
+ </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+      
+      <section>
+         <title>@_HEADER_@</title>
+         <para>
+            <orderedlist spacing="compact">
+               <listitem>
+                  <para>
+                         @_DESCRIPTION_@
+                  </para>
+               </listitem>
+            </orderedlist>
+         </para>
+         @_DISPOSABLE-TABLE_@
+         <para>
+                  Fees would represent 33% or more of disposable income for <emphasis role='bold'>@_DISPOSABLE-UNAFFORDABLE_@%</emphasis> of Scottish families.
+         </para>
+         @_RESIDUAL-TABLE_@
+         <para>
+         <emphasis role='bold'>@_RESIDUAL-UNAFFORDABLE_@%</emphasis> of families with children not already on Income Support would be pushed below the poverty line by these fees.
+         </para>
+         <formalpara>
+                <title>Note:</title>
+                <para>
+                For more details, see the following web link:
+                <ulink url="http://www.virtual-worlds.biz@_ROOT_@@_HTML-OUTPUT-DIR_@/oscr_output.html"></ulink>                        
+                </para>
+         </formalpara>
+      </section>
+
+

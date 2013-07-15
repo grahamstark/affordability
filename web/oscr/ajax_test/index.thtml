@@ -1,0 +1,25 @@
+@@INCLUDE@@ ../components/oscr_header.thtml "Output Breakdown : @_REGIME_NAME_@ : @_APPLICATION_NAME_@"
+
+<body>
+        <div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+        <div id="rb_block1" class="rb_block">
+                <table class='dataTable'>
+                        <tr id="row_1" class="tableRowOdd">
+                                <td>
+                                        <input size="10" name="rate1" />
+                                </td>
+                                <td>
+                                        <input size="10" name="band2" />
+                                </td>
+                                <td>
+                                        <a href="#" onclick="new Ajax.Updater('rb_block1', '/edit_rbs', { method: 'post', parameters: 'row=1&amp;action=insert_after&amp;which_array=it.ratebands'} );">
+                                                <span id="add_1"><img src="@_ROOT_@images/icon_plus.gif" alt="Add Row" /></span></a> 
+                                </td>
+                                <td>
+                                        <a href="#" onclick="new Ajax.Updater('rb_block1', '/edit_rbs', { method: 'post', parameters: 'row=1&amp;action=delete&amp;which_array=it.ratebands'} );">
+                                                <span id="delete_1"><img src="@_ROOT_@images/icon_minus.gif" alt="Delete Row" /></span></a> 
+                                </td>
+                        </tr>
+                </table>
+       </div>
+</body>

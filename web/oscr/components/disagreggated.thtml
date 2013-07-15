@@ -1,0 +1,14 @@
+                    <h3>
+                        <a href="#"
+                        onclick="Effect.toggle('@_ID_@','slide');Effect.toggle('@_ID_@-up','slide'); Effect.toggle('@_ID_@-down','slide'); return false;"><span
+                        id="@_ID_@-down"><img src="@_ROOT_@images/icon_plus.gif" 
+                        alt="Expand" /></span> 
+                        <span style="display: none;" id="@_ID_@-up"><img
+                        src="@_ROOT_@images/icon_minus.gif" alt="Contract" /></span></a> @_TITLE_@
+                    </h3>
+                    <div id="@_ID_@" style="display: none;">
+                        @@TABLE@@
+                        @_DISAGREGGATED_TABLES_@
+                        @@END_TABLE@@
+                    </div>
+

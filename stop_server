@@ -1,0 +1,1 @@
+/sbin/start-stop-daemon --exec /home/graham_s/VirtualWorlds/projects/oscr/model/bin/oscr_server  -d /home/graham_s/VirtualWorlds/projects/oscr/model/ -v --stop

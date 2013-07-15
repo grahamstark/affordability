@@ -1,0 +1,133 @@
+
+<project name="ADRSJavaChart" default="war">
+
+        <property environment="env"/>
+        <property name="war_name" value="plotter"/>
+        <property name="static_jar_name" value="javachart"/>
+
+        <property name="src" location="src"/>
+        <property name="test-src" location="test"/>
+        <property name="lib" location="lib"/>
+        <property name="build" location="build"/>
+        <property name="test-build" location="test_build"/>
+        <property name="dist" location="dist"/>
+        <property name="config" location="config"/>
+        <property name="web" location="web" />
+        <property name="jar" location="lib" />
+        <property name="tomcat" location="${env.CATALINA_HOME}" />
+        <property name="deploy" value="${tomcat}/webapps" />
+
+        <property name="tomcat.port" value="8080" />
+        <property name="tomcat.user" value="graham_s" />
+        <property name="tomcat.password" value="iainkath" />
+        <property name="tomcat.host" value="localhost" />
+
+        <property name="compile.debug" value="true"/>
+        <property name="compile.deprecation" value="true"/>
+        <property name="compile.optimize" value="true"/>
+	
+
+        <path id="project.class.path">
+                <fileset dir="${jar}">
+                        <patternset>
+                                <include name="**/*.jar"/>
+                                <include name="**/*.zip"/>
+                        </patternset>
+                </fileset>
+                <filelist dir="${tomcat}/lib/">
+                        <file name="servlet-api.jar"/>
+                </filelist>
+                <pathelement location="${build}">
+
+                </pathelement>
+
+        </path>
+        
+        
+        <target name="compile">
+                <mkdir dir="${build}"/>
+                <javac srcdir="${src}"
+                                destdir="${build}"
+                                debug="${compile.debug}"
+                                optimize="${compile.optimize}"
+                                deprecation="${compile.deprecation}">
+                        <classpath refid="project.class.path"/>
+                </javac>
+        </target>
+        
+
+        <target name="static_jar" depends="compile">
+                <jar destfile="${dist}/${static_jar_name}.jar" 
+                     basedir="${build}">
+                     <fileset dir="bin">
+                                <include name="*.ttf"/>
+                                <include name="*.lic"/>
+                     </fileset>
+                </jar>
+        </target>
+        
+        <target name="war" depends="compile">
+                <war destfile="${dist}/${war_name}.war" webxml="${config}/web.xml">
+                        <classes dir="${build}">
+                                <exclude name="**/testsuite/*" />
+                        </classes>
+                        <classes dir="bin/">
+                                <include name="*.ttf"/>
+                                <include name="*.lic"/>
+                        </classes>
+                        <classes dir="config/">
+                                <include name="logging.properties"/>
+                        </classes>
+                        <lib dir="${lib}">
+                                <exclude name="servlet.jar,junit.jar"/>
+                        </lib>
+                        <webinf dir="${config}/web-inf/"/>
+                        <fileset dir="${web}"/>
+                </war>
+        </target>
+	
+
+        <target name="war_local_copy" depends="war">
+                <copy file="${dist}/${war_name}.war" toFile="${deploy}/${war_name}.war" />
+        </target>
+
+        <target name="reload"
+                        depends="war_local_copy"
+                        description="Copy war file to tomcat and reload the app">
+
+                <get src="http://${tomcat.host}:${tomcat.port}/manager/reload?path=/${war_name}"
+                                dest="junk.txt"
+                                username="${tomcat.user}"
+                                password="${tomcat.password}"/>
+        </target>
+        
+
+        <path id="test.class.path">
+                <pathelement location="lib/junit-4.1.jar" />
+                <pathelement location="${test-build}"/>
+                <path refid="project.class.path" />
+        </path>
+
+
+        <target name="compile-test" depends='compile'>
+                <mkdir dir="${test-build}"/>
+                <javac srcdir="${test-src}"
+                                destdir="${test-build}"
+                                debug="${compile.debug}"
+                                optimize="${compile.optimize}"
+                                deprecation="${compile.deprecation}">
+                        <classpath refid="test.class.path"/>
+                </javac>
+        </target>
+        
+        <target name="test" depends="compile-test">
+                <junit>
+                        <classpath refid="test.class.path" />
+                        <formatter type="brief" usefile="false" />
+                        <batchtest>
+                                <fileset dir="${test-build}" includes="**/*Tests.class" />
+                        </batchtest>
+                </junit>
+        </target>
+
+</project>

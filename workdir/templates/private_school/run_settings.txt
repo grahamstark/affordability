@@ -1,0 +1,9 @@
+incomes_control_record.aggregate_incomes_to=HOUSEHOLD_LEVEL;
+incomes_control_record.produce_results_for=BENEFIT_UNIT_LEVEL;
+incomes_control_record.exclude_is_cases=TRUE;
+incomes_control_record.exclude_net_incomes_below_poverty_line=TRUE;
+incomes_control_record.exclude_net_incomes_below_poverty_line=1.00000000000000E+00;
+incomes_control_record.include_only_non_zero_costs=TRUE;
+incomes_control_record.include_housing=TRUE;
+incomes_control_record.include_child_care_costs_in_allowances=FALSE;
+incomes_control_record.summary_slot=3;

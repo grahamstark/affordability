@@ -1,0 +1,19 @@
+<div class="regime" id='regime_@_REGIME-ID_@'>
+@_MENU_@
+<h2>Charity: @_REGIME-NAME_@</h2>
+<table>
+        <tr>
+                <td width='50%' valign='top' align='center'><label for='regime-name_@_REGIME-ID_@'>Name:&nbsp;</label><br/>
+                    <input size='40' id='regime-name_@_REGIME-ID_@'  @_REGIME-NAME-INPUT-CLASS_@
+                     name='regime-name_@_REGIME-ID_@' type='text' value='@_REGIME-NAME_@'/>
+                     @_REGIME-NAME-ERROR-MESSAGE_@
+                </td>
+                 <td  valign='top'  align='center'>
+                        <label for='regime-description_@_REGIME-ID_@'>Description:&nbsp;</label><br/>
+                         <textarea rows='2' cols='80' id='regime-description_@_REGIME-ID_@' 
+                          name='regime-description_@_REGIME-ID_@' >@_REGIME-DESCRIPTION_@</textarea>                          
+                </td>
+        </tr>
+</table>
+@_APPLICATION-SECTION_@
+</div>

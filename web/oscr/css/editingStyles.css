@@ -1,0 +1,98 @@
+/** 
+  *
+  * Colo[u]rs and fonts for parameter input forms 
+  *
+  * $Revision: 7463 $
+  * $Author: graham_s $
+  * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+  *
+ */
+.error, .error_alert {
+    font-size: 11px;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.validation_error{
+    color: red;
+    font-weight: bold;
+}
+
+.changeNumber{ font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #b47168; }
+
+.inputerror{ background-color: #fcc; }
+
+.inputChangedValue{ background-color:#eadc96;  }
+
+/** this is the little arrow which, when clicked, pops up the single variable forms **/
+
+a.timeseries{
+  background: url(/images/extlink.gif) left center no-repeat;
+  padding-left: 16px;
+  text-decoration: none;
+ }
+
+.parameter_summary{
+        
+   color: #222222; /* #888888; */
+   font-size: 8pt;
+   background-color: white; /**  #f8f8e8 **/  
+}
+
+.parameter_summary td{
+        text-align: right;    
+}
+
+.parameter_summary th{
+        text-align: center;       
+}
+
+.parameter_summary th.row_title{
+        text-align: left;       
+}
+
+.parameter_summary tr.row_title{
+        text-align: left;       
+}
+        
+
+.tableBase{
+     color: #9999aa;       
+     
+}
+
+.image_url, .image_url img, .image_url a:visited{
+        border:0;
+        text-decoration:none;
+        font-size:8pt;
+        color: black;        
+}
+
+.changed{
+        background: pink;       
+}
+
+.somechanged{
+        background: #aaee88;       
+}
+
+.hidden_element{
+        display:none;       
+}
+
+.popups_wrapper{
+        padding-right: 6pt;
+        padding-left: 6pt;       
+
+}
+
+
+fieldset.submit_buttons{
+   float: left; 
+   padding: 3pt;
+   background: #f5fffa;
+   border: 1px solid #cef2e0;
+}

@@ -1,0 +1,6 @@
+<div id='charges_@_TARGET-ID_@'>
+        @@TABLE@@
+        @_CHARGES_@
+        @@END_TABLE@@
+</div>
+

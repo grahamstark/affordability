@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD XHTML 1.0 Transitional/EN"
+    "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en">
+
+@@INCLUDE@@ header.thtml "Output Breakdown : @_REGIME_NAME_@ : @_APPLICATION_NAME_@"
+
+     <body>
+            <div id="wrapModels">
+            
+                <div id="mast">
+                    &nbsp; 
+                    <div id="tag">
+                    <h1>Affordability Calculator</h1>    
+                    </div>
+                </div>
+      <div class='navcontainer'>
+        <ul >    
+             <li><a href='@_ROOT_@'>Home</a></li >
+             <li><a href='@_ROOT_@input'>Edit Costs Model</a></li>       
+             <li><span class='current' >Output</span></li>   
+             <li><a href='@_ROOT_@run_settings'>Change Run Settings</a></li>
+             <li><a href='http://virtual-worlds.biz@_ROOT_@info'>Help and Information</a></li>        
+        </ul>
+      </div>
+                 @_MENU_@
+                 <div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;">
+                </div>
+                <input id="HoverhelpOn" name="HoverhelpOn" value="0" type="hidden" /> 
+                
+                <div class="summaryContent"> 
+                    <div class="summary_text_block">  
+                    <h1>Affordability Indicators For @_REGIME_NAME_@ : @_APPLICATION_NAME_@</h1>
+                    <p>This shows afforability for the families in Scotland
+                    for whom the charge applies, excluding those on Income Support, or its equivalents,
+                    or with incomes close to the Income Support level. Results are for counts 
+                    of families.</p>
+                    <p>@_REGIME_DESCRIPTION_@</p>
+                    <p>@_APPLICATION_DESCRIPTION_@</p>
+                    <h2>Headline Figures</h2>
+                    <p>
+                        Fees would represent @_SLOT-RANGE_@ of disposable income for <b>@_UNAFFORDABLE-COST-DISPOSABLE-RATIO-POPN_@%</b> of families.
+                    </p>
+                    <p>
+                        <b>@_AFFORDABLE-RESIDUAL-INCOME-POPN_@%</b> of families could pay these changes and remain above their poverty line.
+                    </p>
+                    </div>
+                    <p class="gratuitous_advice">
+                        Each little block is clickable and pops up a page with more details. 
+                    </p>
+                    
+                    <table width='100%'>
+                        <tr>
+                            <td width='70%'>&nbsp;
+                            </td>
+                            <td valign='top'>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <strong><a href="/save_file/?file=phunpack&amp;regime=@_REGIME_@&amp;type=zip" class="helpLink">Detailed Information</a></strong> 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <em><a href="http://virtual-worlds.biz@_ROOT_@info/csv_dump.html" class="helpLink"
+                                                onclick="HelpWindow( this.href ); return false;" onfocus="this.blur()">[About this information]</a></em> 
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td valign='top'>
+                                <a href="#" onclick="print();"><img src="@_ROOT_@images/Print24.gif" alt="print" class="pictureThumbnail" /></a> 
+                            </td>
+                        </tr>
+                    </table>
+                    <h3>
+                        Results for Whole Population
+                    </h3>
+                    @_ALL-POPULATION_@                    
+                    <h3>
+                        Disaggregated Results
+                    </h3>
+                    <hr />
+                    <p class="gratuitous_advice">
+                        Select <img src="@_ROOT_@images/icon_plus.gif" alt="Expand" /> to view the results in different categories. Select the thumbnail charts to view more detailed
+                        results.
+                    </p>
+                    
+                        @@TABLE@@
+                        @_TABLE-BLOCKS_@
+                        @@END_TABLE@@
+                     
+ 
+                 <!-- inner -->
+                
+                
+@@INCLUDE@@ footer.thtml
+                </div> <!-- summary content -->
+             </div> <!-- wrap models -->
+    </body>
+</html>

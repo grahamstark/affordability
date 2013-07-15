@@ -1,0 +1,11 @@
+<div class='submit' >
+   <fieldset class='submit_buttons'>
+        <input id='Save_Submit_Button' type='submit' name="action" value='Save' />
+        @@IF@@ @_JOB_IS_RUNNING_@
+        <input id='Run_Submit_Button' type='submit' name="action" value='Run' disabled='disabled'/>
+        @@ELSE@@
+        <input id='Run_Submit_Button' type='submit' name="action" value='Run' />
+        @@END_IF@@
+        
+   </fieldset>
+</div>

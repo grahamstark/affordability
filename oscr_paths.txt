@@ -1,0 +1,9 @@
+physical_server_root=/home/graham_s/VirtualWorlds/projects/oscr/model/web/oscr/;
+charts_driver_script=/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/scripts/charts_generator_unix.sh;
+datafile_directory=/home/graham_s/VirtualWorlds/projects/oscr/model/data/;
+template_components_path=/home/graham_s/VirtualWorlds/projects/oscr/model/web/oscr/components/;
+work_dir=/home/graham_s/VirtualWorlds/projects/oscr/model/workdir/;
+log_file_dir=/home/graham_s/VirtualWorlds/projects/oscr/model/logs/;
+port=9092;
+create_zip_file_and_static_images=FALSE;
+root=/;

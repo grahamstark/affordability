@@ -1,0 +1,56 @@
+    <div id='target_@_TARGET-ID_@' class='target'>
+        <h4>Beneficiary Group: @_TARGET-NAME_@</h4>
+        <table class='dataTable'>
+            <tbody>
+                <tr>
+                       <td colspan='9'><label for='target-name_@_TARGET-PATH_@'>Name:</label>
+                       <input size='80' id='target-name_@_TARGET-PATH_@' 
+                          name='target-name_@_TARGET-PATH_@' type='text' value='@_TARGET-NAME_@'/>
+                        </td>
+                </tr>
+                <tr>
+                   <td valign='top'>
+                   <label for='min-age_@_TARGET-PATH_@'>
+                   Minimum Age
+                   </label>
+                   <input size='5' @_MIN-AGE-INPUT-CLASS_@ id='min-age_@_TARGET-PATH_@' 
+                          name='min-age_@_TARGET-PATH_@' type='text' value='@_MIN-AGE_@'/>
+                   @_MIN-AGE-ERROR-MESSAGE_@                   
+                   
+                   </td>
+                   <td valign='top'>
+                   <label for='max-age_@_TARGET-PATH_@'>Maximum Age</label>
+                   <input size='5' @_MAX-AGE-INPUT-CLASS_@ id='max-age_@_TARGET-PATH_@' 
+                          name='max-age_@_TARGET-PATH_@' type='text' value='@_MAX-AGE_@'/>
+                   @_MAX-AGE-ERROR-MESSAGE_@                   
+                   
+                   </td>
+                   <td valign='top'><label for='benefits_@_TARGET-PATH_@'>Benefits</label><br/>
+                   @_TARGET-BENEFITS_@</td>
+                   <td valign='top'><label for='employment_@_TARGET-PATH_@'>
+                   Employment Status</label><br/>@_TARGET-EMPLOYMENT_@</td>
+                   <td valign='top'><label for='gender_@_TARGET-PATH_@'>Genders</label><br/>
+                   @_TARGET-GENDERS_@</td>
+                   <td  width='10%' valign='top'>
+                        <table class='control_buttons'>
+                            <tbody>
+                                <tr>
+                                    <td class='submit_button'>@_INSERT-BELOW-SECTION_@</td>
+                                    <td class='submit_button'>@_INSERT-ABOVE-SECTION_@</td>
+                                    <td class='submit_button'>@_DELETE-SECTION_@</td>
+                                    <td class='submit_button'>@_SAVE-SECTION_@</td>
+                                    <td class='submit_button'>@_COPY-SECTION_@</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                        <td colspan='9'>
+                        <h3>Services</h3>
+                        @_CHARGES_LIST_@
+                        </td>
+                </tr>
+            </tbody>   
+        </table>
+    </div>

@@ -1,0 +1,6 @@
+                <table class='dataTable'>
+                @@TABLE@@
+                        @_ROWS_@
+                @@END_TABLE@@
+                </table>
+       

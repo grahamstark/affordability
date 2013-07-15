@@ -1,0 +1,24 @@
+         <table frame="none">
+            <title>Ready Reckoner - @_WHICH-MEASURE_@</title>
+            <tgroup cols="7">
+               <colspec colnum="1" colname="col1" colwidth="1*"/>
+               <colspec colnum="2" colname="col2" colwidth="1*"/>
+               <colspec colnum="3" colname="col3" colwidth="1*"/>
+               <colspec colnum="4" colname="col4" colwidth="1*"/>
+               <colspec colnum="5" colname="col5" colwidth="1*"/>
+               <colspec colnum="6" colname="col6" colwidth="1*"/>
+               <colspec colnum="7" colname="col7" colwidth="1*"/>
+               <thead>
+                  @_HEADER-ROW_@
+               </thead>
+               <tbody>
+
+                  @@TABLE@@
+                  @_ROWS_@
+                  @@END_TABLE@@ 
+                 
+               </tbody>
+            </tgroup>
+         </table>
+         
+         

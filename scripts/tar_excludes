@@ -1,0 +1,15 @@
+bin/*.o
+bin/*.ali
+bin/*.TMP
+bin/*.adb
+bin/*.ads
+bin/
+.svn
+tmp/*
+logs/*
+database
+workdir/graham_s
+.metadata
+data/*
+bin/*
+javachart/*

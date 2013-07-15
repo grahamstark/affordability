@@ -1,0 +1,1 @@
+tar zcvf ~/oscr_model.tgz . --exclude-from=scripts/tar_excludes

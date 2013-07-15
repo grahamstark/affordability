@@ -1,0 +1,25 @@
+   <section>
+      <title>Affordability Report for @_HEADER_@</title>
+      <note>
+         <title>About these figures</title>
+         <para>
+             Key Facts:
+             <itemizedlist spacing="compact">
+               <listitem>
+                  <para>List of Facts Goes Here</para>
+               </listitem>
+            </itemizedlist>
+         </para>
+      </note>
+      
+      @@TABLE@@
+      @_SECTIONS_@
+      @@END_TABLE@@ 
+      
+      <section>
+         <title>Assumptions</title>
+         <para>
+               [ Modelling Assumptions Go Here ]
+         </para>
+      </section>
+   </section>

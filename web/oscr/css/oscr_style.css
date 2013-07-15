@@ -1,0 +1,307 @@
+/*--------- COMMON ----------*/
+html, body{
+	margin: 0;
+	padding: 0;
+        height: 100%;
+        
+}
+body {
+	font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        background-color: #eeffee; /*#24425c;*/ 
+}
+
+form{
+        padding: 0;
+        margin: 0;
+}
+
+
+#mast {
+	width: 100%;
+	height: 60px;
+	padding-left: 6pt;
+	padding-right: 6pt;
+	background: url(/images/oscr_logo.png) no-repeat;
+        background-color: #24425c;        
+}
+
+h1, h2, h3, h4, h5{
+        font-weight: normal;
+        font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+        color:  #24425c; 
+        text-align: center;
+        margin: 0;
+
+}
+
+h1{
+     font-size: 20pt;   
+}
+
+#mast h1{
+        color: white;        
+        text-align: center;
+        vertical-align: middle;
+}
+
+#mast h1:first-letter{
+        color: #b9d477;
+        font-size: 105%;
+        font-weight: bold;
+}
+
+
+h2{
+        font-size: 18pt;       
+}
+
+h3{
+        font-size: 16pt;       
+}
+
+h4{
+        font-size: 14pt;       
+}
+
+/* ==========================================================
+   menu adapted from Listamatic 'Centred List Navbar Updated'  
+   http://css.maxdesign.com.au/listamatic/horizontal27.htm 
+   ========================================================== */
+.subnav{
+        background-color: #24425c;   
+        font-size: 10pt;
+ }
+
+.navcontainer{
+        background-color: #24425c;   
+        font-size: 11pt;
+}
+
+.navcontainer ul, .subnav ul{
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        /* cancels gap caused by top padding in Opera 7.54 */
+        margin-left: 0;
+        color: white;
+        width: 100%;
+        font-family: "Gill Sans", Arial,Helvetica,sans-serif;
+/*        line-height: 18px; */
+        /* fixes Firefox 0.9.3 */
+}
+
+.navcontainer ul li, .subnav ul li{
+        display: inline;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+        /* matches link padding except for left and right */
+        padding-top: 5px;
+}
+
+
+.navcontainer ul li a, 
+.navcontainer ul li span.current, 
+.subnav ul li a,
+.subnav ul li span.current{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: #b9d477;
+        text-decoration: none;
+        border-right: 1px solid #ffffff;
+}
+
+.navcontainer ul li a:hover, .subnav ul li a:hover{
+        background-color: #369;
+        color: white;
+}
+
+.navcontainer ul li span.current, 
+.subnav ul li span.current{
+        color: white;       
+}
+
+
+.navcontainer .active, .subnav .active { 
+        border-left: 1px solid #ffffff; 
+}
+
+div.regime{
+        background-color: #eeffee; /*e4e4e4;*/ 
+        margin: 0;
+        padding-left: 8pt;
+        
+}
+
+div.application{
+        background-color: #e4e4e4; /*fdf3d0;*/        
+        padding-left: 8pt;
+        padding-right:  8pt;
+        padding-bottom: 3pt;
+        padding-top: 3pt;
+}
+
+div.target{
+        background-color: #cceeff;       
+        padding-left: 6pt;
+        padding-right:  6pt;
+        padding-bottom: 3pt;
+        padding-top: 3pt;
+        margin-bottom: 4px;
+}
+
+div.charge{
+        padding-left: 6px;
+        padding-right:  6px;
+        background-color: #ffccaa; 
+        margin-bottom: 2px;
+}
+
+table.control_buttons{
+        border: 1px solid silver;
+        padding: 3pt;
+        vertical-align: middle;
+}
+
+label{
+        font-weight: bold;       
+}
+
+.footer{
+        font-size: 90%;
+        background: #eeffee;
+        border-top: 1px dotted silver;
+        text-align: center;
+}
+
+	
+.error {
+	margin: 10px;
+	padding: 10px;
+	background: #fcc;
+	border: 1px solid #f33;
+	color: #f33;
+	}
+.errorText {
+	padding: 3px 3px 3px 3px;
+	color: #f33;
+	}
+.success {
+	margin: 10px;
+	padding: 10px;
+	background: #ffc;
+	border: 1px solid #363;
+	color: #363;
+	}
+.successText {
+	padding: 3px 3px 3px 3px;
+	color: #363;
+	}
+        
+.note {
+	font-size: 11px;
+	color: #24425c;
+}
+.return {
+	margin: 5px;
+	text-align: right;
+}
+.adminWarning {
+	margin: 10px;
+}
+.userWarning {
+	margin: 10px;
+	padding: 0;
+}
+	
+.warningText {
+	color: #f33;
+}
+
+
+input, text, textarea, checkbox, select {
+	font-size: 12px;
+	font-family: Arial, helvetica, san-serif;
+}
+
+
+#userMessage {
+	position:absolute;
+	top: 5px;
+	right:260px;
+	text-align:right;
+	color:#fff;
+}	
+#userMessage a:link, #userMessage a:visited {
+	color: #ff9;
+	font-weight:normal;
+}
+#userMessage a:hover {
+	color: #fff;
+}
+
+fieldset.submit_buttons{
+        display: block;
+        width: 100%;
+        background:  #eeffee;
+}
+
+.error_section{
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 105%;
+        background: #eda28d;
+        border: 1px solid #a73415;
+        text-align: center;
+        padding: 8px;       
+}
+
+.content{
+        padding-left: 6pt;
+        padding-bottom: 4pt;
+        padding-top: 4pt;
+        background: #eeffee; 
+        display: block;
+}
+
+.summary_text_block{
+        display: block;
+        margin-right: 10%;
+        padding: 3px;
+        margin-left: 10%;
+        font-size: 11pt;
+        background: white;
+        border: 1px solid #247978; 
+}
+
+.summary_text_block h1{
+        display: block;
+        margin-top: 1px;
+        background: #247978;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        font-size: 14pt;
+}
+
+
+.summary_text_block h2{
+        font-size: 13pt;
+        color: #247978;
+        text-align: center;
+}
+
+.version_history{
+        text-align: center;
+        padding-bottom: 2pt;
+        padding-top: 10pt;
+}
+

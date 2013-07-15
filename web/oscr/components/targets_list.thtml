@@ -1,0 +1,5 @@
+<div id='targets_@_APPLICATION-ID_@'>
+        @@TABLE@@
+        @_TARGETS_@
+        @@END_TABLE@@
+</div>

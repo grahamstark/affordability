@@ -1,0 +1,66 @@
+/** 
+ * GKS Stylesheet for progress bar 
+ * $Log: $
+ * 
+**/
+.progressBar{
+        border: 1px solid white;       
+}
+
+.households_done {
+        background-color : #3a6fa5;      
+}
+
+.households_todo {
+       background-color : #eded6d;
+}
+
+.bodyText{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+        color: black;
+        padding: 6px;
+}
+
+.statusDiv{
+        background-color: #d9f6f9;
+        width: 95%;
+        float: right;
+        padding: 8px;
+        border: 2px solid #33ADD6;    
+}
+
+.statusTable{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+        background-color: #d9f6f9;
+        padding: 6px;
+        /*text-align: right;*/
+        color: black;
+}
+
+.important { font-weight: bold }
+
+.modulebox { background-color: #ddd; 
+             font-family: sans-serif;
+             text-align: center;
+}
+
+.module_active{ 
+        font-weight: bold;
+        color: #eded6d;
+        background-color: #3a6fa5;
+        text-align: center;
+}
+
+.module_done{
+        color: white;
+        background-color: #ccc;
+        text-align: center;
+}
+
+.module_todo{
+         color: white;
+         background-color: #88c;
+         text-align: center;
+}

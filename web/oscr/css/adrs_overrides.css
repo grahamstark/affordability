@@ -1,0 +1,99 @@
+/** 
+  * Override some elements in Keri's css files
+  * 
+  * $Revision: 7463 $
+  * $Author: graham_s $
+  * $Date: 2009-06-18 09:57:13 +0100 (Thu, 18 Jun 2009) $
+  *
+ */
+/** current elements are not links on my pages, 
+    so attach the style to the li element instead; 
+    just mark anything with class='current' as
+    the models colour, as I'm the only one
+    importing this css.
+    **/
+
+.charging_regime{
+        display: block;
+        border: 1px solid silver;
+        padding: 6px;
+}
+    
+.charging_block{
+        display: block;
+        padding: 3px;
+        margin: 2px;
+        background: #DDFFEE;
+}
+    
+    
+
+.gratuitous_advice, #gratuitous_advice{
+        font-size: smaller;
+        color: #555;
+        text-align: left;
+}
+
+.gratuitous_advice li, #gratuitous_advice li{
+        list-style-type: lower-roman;
+        padding: 1px;
+}
+
+.message{
+        color: #229911;
+        font-weight: bold;
+}
+
+.motds{
+        display: block;
+        color: black;
+        padding: 6px;
+        border: 1px dotted #cc9966;
+        background-color: #ffed8c;
+}
+.motd{
+        display: block;       
+}
+
+.summaryList{
+        display: block;
+        font-size: 11pt;
+        text-align: left;
+        font-weight: normal;
+        margin-right: 20%;
+        margin-left: 20%;
+        padding-bottom: 6px;
+        width: 100%;
+       
+}
+
+.summary_text_block{
+        display: block;
+        margin-right: 10%;
+        padding: 3px;
+        margin-left: 10%;
+        font-size: 11pt;
+        background: white;
+        border: 1px solid #247978; 
+}
+
+.summary_text_block h1{
+        display: block;
+        margin-top: 1px;
+        background: #247978;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        font-size: 14pt;
+}
+
+
+.summary_text_block h2{
+        font-size: 13pt;
+        color: #247978;
+        text-align: center;
+}
+
+
+

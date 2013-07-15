@@ -1,0 +1,81 @@
+         <table frame="none">
+            <title>@_HEADER_@</title>
+            <tgroup cols="3">
+               <colspec colnum="1" colname="popn_col" colwidth="1*"/>
+               <colspec colnum="2" colname="income_col" colwidth="0.7*"/>
+               <colspec colnum="3" colname="chart_col" colwidth="3.5*"/>
+               <tbody>
+                  <row>
+                     <entry colname="popn_col">
+                        <emphasis role="bold">@_INCOME_NAME_@</emphasis>
+                     </entry>
+                     <entry colname="income_col">
+                        <emphasis role="bold">% of Population</emphasis>
+                     </entry>
+                     <entry morerows="6" colname="chart_col">
+                        <inlinemediaobject id="@_ID_@">
+                           <objectinfo>
+                              <title>Bar Chart Showing @_HEADER_@</title>
+                           </objectinfo>
+                           <imageobject>
+                              <imagedata scalefit="1" width="30%" contentwidth="30%" format="SVG" fileref="@_CHART-NAME_@.svg" />
+                           </imageobject>
+                           <textobject>
+                              <phrase>Bar Chart Showing @_HEADER_@</phrase>
+                           </textobject>
+                        </inlinemediaobject>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-1_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-1_@
+                  </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-2_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-2_@
+                  </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-3_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-3_@
+                  </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-4_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-4_@
+                  </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-5_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-5_@
+                  </entry>
+                  </row>
+                  <row>
+                     <entry colname="popn_col">
+                    @_INC-6_@
+                  </entry>
+                     <entry colname="income_col">
+                    @_POP-6_@
+                  </entry>
+                  </row>
+                  
+               </tbody>
+            </tgroup>
+         </table>
+

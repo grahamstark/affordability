@@ -1,0 +1,123 @@
+                <table width='100%' class='summaryTable'>
+                        <tbody>
+                            <tr>
+                                <td width='10%' valign='middle' align='right'>
+                                    <b>@_HEADER_@</b>
+                                </td>
+                                <td  width='28%'>
+                                     <table class='summaryTable' width='100%'>
+                                        <tbody>
+                                            <tr>
+                                                <th colspan='3' align="center">
+                                                    Residual&nbsp;Income
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" width='20%'>
+                                                    Unaffordable:&nbsp;<br/><b>@_RESIDUAL-UNAFFORDABLE_@%</b> 
+                                                </td>
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-1_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" 
+                                                        onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-1_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-1_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-1_@" /> 
+                                                </a>
+                                                </td>
+                                                
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-2_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-2_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-2_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-2_@" /> 
+                                                </a>
+                                                </td>
+                                                
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                
+                                </td>
+                                <td  width='28%'>
+                                   <table class='summaryTable' width='100%'>
+                                        <tbody>
+                                            <tr>
+                                                <th colspan='4' align="center" width='20%'>
+                                                    Cost/Disposable&nbsp;Income
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle">
+                                                    Unaffordable:&nbsp;<br/><b>@_DISPOSABLE-UNAFFORDABLE_@%</b> 
+                                                </td>
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-4_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-4_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-4_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-4_@" /> 
+                                                </a>
+                                                </td>
+                                                
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-5_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-5_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-5_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-5_@" /> 
+                                                </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+    
+                                </td>
+                                <td  width='28%'>
+                                    
+                                    <table class='summaryTable' width='100%'>
+                                        <tbody>
+                                            <tr>
+                                                <th colspan='4' align="center">
+                                                    Cost/Gross&nbsp;Income
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" width='20%'>
+                                                    Unaffordable:&nbsp;<br/><b>@_GROSS-UNAFFORDABLE_@%</b> 
+                                                </td>
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-7_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-7_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-7_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-7_@" /> 
+                                                </a>
+                                                </td>
+                                                
+                                                <td align="center" valign="top" width='26%'>
+                                                <a class="pictureThumbnail" href="@_ROOT_@popup/?file=@_CHART-FULL-8_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;application_text=@_APPLICATION-TEXT_@&amp;regime_text=@_REGIME-TEXT_@" onclick="ExampleWindow( this.href, '', '' ); return false;"
+                                                        onfocus="this.blur()"
+                                                        onmouseover='return overlibConditional( "Select for full-size chart of: @_ALT-8_@" );'
+                                                        onmouseout="return nd();">
+                                                <img src="/charts?file=@_CHART-8_@&amp;regime=@_REGIME_@&amp;application=@_APPLICATION_@&amp;type=png"
+                                                    alt="@_ALT-8_@" /> 
+                                                </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    
+                                </td>
+                                <td width='5%' valign='middle' align='left' style='text-align:left; padding-left:3px; padding-right:3px'>Popn:&nbsp;<b>@_POPULATION_@</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+

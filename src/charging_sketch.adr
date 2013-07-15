@@ -1,0 +1,33 @@
+Is_Unemployed        -- person/bu
+Is_On_Income_Support -- bu
+Is_On_Means_Tested_Benfits -- person - bu 
+Is_Retired           
+Is_Of_Retirement_Age
+Is_Parent
+Is_Lone_Parent
+Is_Working_Parent
+Is_Unemployed_Parent
+Is_On_Housing_Benefit
+Is_Employed
+Is_In_Highlands
+Is_Renter
+Is_Owner_Occupier
+Is_Young_Prospective_House_Owner - bu - ad
+Is_Elderly_Possible_Nursing_Home - bu - ad
+
+
+
+
+type Charging_Model is record
+        applies_to : head, spouse, children;
+        discount_system 
+        frequency
+        frequency_type
+        
+end record;
+
+type Charging_Output is record
+        
+end record;
+
+function Calc_Charge( hh

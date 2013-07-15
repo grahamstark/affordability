@@ -1,0 +1,65 @@
+<div id='application_@_APPLICATION-ID_@' class='application'>
+        <input type='hidden' name='application_id' value='@_APPLICATION-PATH_@' />
+        <h3>Assumptions: @_APPLICATION-NAME_@</h3>
+        <table class='dataTable'>
+            <tbody>
+                <tr>
+                        <td colspan='8'>
+                        <table width='100%'>
+                        <tbody>
+                        <tr>
+                        <td width='50%' align='center'><label for='application-name_@_APPLICATION-PATH_@'>Name:</label><br/>
+                        <input size='40' id='application-name_@_APPLICATION-PATH_@' 
+                          name='application-name_@_APPLICATION-PATH_@' type='text' value='@_APPLICATION-NAME_@'/>
+                        </td>
+                        <td width='50%' align='center'><label for='application-description_@_APPLICATION-PATH_@'>Description:&nbsp;</label><br/>
+                        <textarea rows='2' cols='80' id='application-description_@_APPLICATION-PATH_@' 
+                          name='application-description_@_APPLICATION-PATH_@' >@_APPLICATION-DESCRIPTION_@</textarea>                          
+                        </td>
+                        </tbody>
+                        </table>
+                        </td>
+                </tr>
+                <tr>
+                   <td>
+                   <label for='application-max-adults_@_APPLICATION-PATH_@'>Max Adults (0..18)</label>                   
+                   <input size='5' @_MAX-ADULTS-INPUT-CLASS_@ id='application-max-adults_@_APPLICATION-PATH_@' 
+                    @_MAX-ADULTS-INPUT-CLASS_@  name='application-max-adults_@_APPLICATION-PATH_@' type='text' value='@_MAX-ADULTS_@'/>
+                   @_MAX-ADULTS-ERROR-MESSAGE_@                   
+                   </td>
+                   <td>
+                   <label for='application-max-children_@_APPLICATION-PATH_@'>Max Children (0..81)</label>                   
+                   <input size='5' @_MAX-CHILDREN-INPUT-CLASS_@ id='application-max-children_@_APPLICATION-PATH_@' 
+                          name='application-max-children_@_APPLICATION-PATH_@' type='text' value='@_MAX-CHILDREN_@'/>
+                   @_MAX-CHILDREN-ERROR-MESSAGE_@                   
+                   </td>
+                   <td>
+                   <label for='application-max-people_@_APPLICATION-PATH_@'>Max People (1..99)</label>
+                   <input size='5' @_MAX-PEOPLE-INPUT-CLASS_@ id='application-max-people_@_APPLICATION-PATH_@' 
+                          name='application-max-people_@_APPLICATION-PATH_@' type='text' value='@_MAX-PEOPLE_@'/>
+                   @_MAX-PEOPLE-ERROR-MESSAGE_@                   
+                   </td>
+                    <td  width='10%'>
+                        <table  class='control_buttons'>
+                            <tbody>
+                                <tr>
+                                    <td class='submit_button'>@_INSERT-BELOW-SECTION_@</td>
+                                    <td class='submit_button'>@_INSERT-ABOVE-SECTION_@</td>
+                                    <td class='submit_button'>@_DELETE-SECTION_@</td>
+                                    <td class='submit_button'>@_SAVE-SECTION_@</td>
+                                    <td class='submit_button'>@_COPY-SECTION_@</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                        <td colspan='8'>
+                       @_TARGETS-LIST_@
+                        </td>
+                        
+                </tr>
+            </tbody>   
+        </table>
+    
+</div>

@@ -1,0 +1,46 @@
+#!/bin/sh
+/opt/jdk/bin/java -cp \
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/dist/javachart.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-anim.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-awt-util.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-bridge.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-codec.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-css.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-dom.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-extension.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-ext.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-gui-util.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-gvt.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-parser.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-script.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-svg-dom.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-svggen.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-swing.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-transcoder.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-util.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/batik-xml.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/ChartDirector.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/chartdir.lic:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/commons-codec-1.3.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/dom4j-1.6.1.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/gnujaxp.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/iText-2.1.1.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/jcommon-1.0.13.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/je-3.2.23.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/jfreechart-1.0.10-experimental.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/jfreechart-1.0.10.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/js.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/mysql-connector-java-5.0.4-bin.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/js.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/xmlgraphics-commons-1.3.1.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/xml-apis-ext-1.3.04.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/xml-apis-1.3.04.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/xercesImpl-2.7.1.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/xalan-2.7.0.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/serializer-2.7.0.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/commons-logging-1.0.4.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/commons-io-1.3.1.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/avalon-framework-4.2.0.jar:\
+/home/graham_s/VirtualWorlds/projects/oscr/model/graphics/javachart/lib/fop.jar \
+ org.oscr.phunpack.Driver $*

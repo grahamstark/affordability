@@ -15,10 +15,11 @@ codebase.
 
 You can read the papers here:
 
-    [Part I : Theory and background](http://www.oscr.org.uk/media/1383/Ability%20Pay%20Research%20Report%20Phase%201.pdf)
-    [Part II : Empirical Applications](http://www.oscr.org.uk/publications-and-guidance/affordability-report-phase-2/)
+* [Part I : Theory and background](http://www.oscr.org.uk/media/1383/Ability%20Pay%20Research%20Report%20Phase%201.pdf)
+* [Part II : Empirical Applications](http://www.oscr.org.uk/publications-and-guidance/affordability-report-phase-2/)
 
 Client: Office of the Scottish Charities Regulator (OSCR)
     
 contact: [Graham Stark](graham.stark@virtual-worlds.biz)
+
 
